@@ -1,0 +1,2234 @@
+[
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.CategoriasController",
+    "Method": "AgregarCategoria",
+    "RelativePath": "api/Categorias/AgregarCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ViajesMundoMaya.DTO.DTO.CategoriaAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.CategoriasController",
+    "Method": "BuscarCategoria",
+    "RelativePath": "api/Categorias/BuscarCategoria/{categoriaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.CategoriaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.CategoriasController",
+    "Method": "ConsultarCategorias",
+    "RelativePath": "api/Categorias/ConsultarCategorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.CategoriaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.CategoriasController",
+    "Method": "EditarCategoria",
+    "RelativePath": "api/Categorias/EditarCategoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ViajesMundoMaya.DTO.DTO.CategoriaEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.CategoriasController",
+    "Method": "EliminarCategoria",
+    "RelativePath": "api/Categorias/EliminarCategoria/{categoriaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ClientesController",
+    "Method": "AgregarCliente",
+    "RelativePath": "api/Clientes/AgregarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ClienteAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ClientesController",
+    "Method": "BuscarCliente",
+    "RelativePath": "api/Clientes/BuscarCliente/{codigoCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ClienteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ClientesController",
+    "Method": "ConsultarClientes",
+    "RelativePath": "api/Clientes/ConsultarClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ClienteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ClientesController",
+    "Method": "EditarCliente",
+    "RelativePath": "api/Clientes/EditarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ClienteEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ClientesController",
+    "Method": "EliminarCliente",
+    "RelativePath": "api/Clientes/EliminarCliente/{codigoCliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.DestinosController",
+    "Method": "AgregarDestino",
+    "RelativePath": "api/Destinos/AgregarDestino",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "destinoAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.DestinoAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.DestinosController",
+    "Method": "BuscarDestino",
+    "RelativePath": "api/Destinos/BuscarDestino/{codigoDestino}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoDestino",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.DestinoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.DestinosController",
+    "Method": "ConsultarDestinos",
+    "RelativePath": "api/Destinos/ConsultarDestinos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.DestinoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.DestinosController",
+    "Method": "EditarDestino",
+    "RelativePath": "api/Destinos/EditarDestino",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "destinoEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.DestinoEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.DestinosController",
+    "Method": "EliminarDestino",
+    "RelativePath": "api/Destinos/EliminarDestino/{codigoDestino}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoDestino",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.EmpleadosController",
+    "Method": "AgregarEmpleado",
+    "RelativePath": "api/Empleados/AgregarEmpleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleadoAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.EmpleadoAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.EmpleadosController",
+    "Method": "BuscarEmpleado",
+    "RelativePath": "api/Empleados/BuscarEmpleado/{codigoEmpleado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.EmpleadoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.EmpleadosController",
+    "Method": "ConsultarEmpleados",
+    "RelativePath": "api/Empleados/ConsultarEmpleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.EmpleadoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.EmpleadosController",
+    "Method": "EditarEmpleado",
+    "RelativePath": "api/Empleados/EditarEmpleado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleadoEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.EmpleadoEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.EmpleadosController",
+    "Method": "EliminarEmpleado",
+    "RelativePath": "api/Empleados/EliminarEmpleado/{codigoEmpleado}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.HotelesController",
+    "Method": "AgregarHotel",
+    "RelativePath": "api/Hoteles/AgregarHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.HotelAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.HotelesController",
+    "Method": "BuscarHotel",
+    "RelativePath": "api/Hoteles/BuscarHotel/{codigoHotel}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoHotel",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.HotelConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.HotelesController",
+    "Method": "ConsultarHoteles",
+    "RelativePath": "api/Hoteles/ConsultarHoteles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.HotelConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.HotelesController",
+    "Method": "EditarHotel",
+    "RelativePath": "api/Hoteles/EditarHotel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.HotelEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.HotelesController",
+    "Method": "EliminarHotel",
+    "RelativePath": "api/Hoteles/EliminarHotel/{codigoHotel}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoHotel",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ItinerariosController",
+    "Method": "AgregarItinerario",
+    "RelativePath": "api/Itinerarios/AgregarItinerario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itinerarioAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ItinerarioAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ItinerariosController",
+    "Method": "BuscarItinerario",
+    "RelativePath": "api/Itinerarios/BuscarItinerario/{codigoItinerario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoItinerario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ItinerarioConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ItinerariosController",
+    "Method": "ConsultarItinerarios",
+    "RelativePath": "api/Itinerarios/ConsultarItinerarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ItinerarioConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ItinerariosController",
+    "Method": "EditarItinerario",
+    "RelativePath": "api/Itinerarios/EditarItinerario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itinerarioEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ItinerarioEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ItinerariosController",
+    "Method": "EliminarItinerario",
+    "RelativePath": "api/Itinerarios/EliminarItinerario/{codigoItinerario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoItinerario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.MetodosPagoController",
+    "Method": "AgregarMetodoPago",
+    "RelativePath": "api/MetodosPago/AgregarMetodoPago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodoPagoAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.MetodoPagoAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.MetodosPagoController",
+    "Method": "BuscarMetodoPago",
+    "RelativePath": "api/MetodosPago/BuscarMetodoPago/{codigoMetodoPago}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoMetodoPago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.MetodoPagoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.MetodosPagoController",
+    "Method": "ConsultarMetodosPago",
+    "RelativePath": "api/MetodosPago/ConsultarMetodosPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.MetodoPagoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.MetodosPagoController",
+    "Method": "EditarMetodoPago",
+    "RelativePath": "api/MetodosPago/EditarMetodoPago",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodoPagoEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.MetodoPagoEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.MetodosPagoController",
+    "Method": "EliminarMetodoPago",
+    "RelativePath": "api/MetodosPago/EliminarMetodoPago/{codigoMetodoPago}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoMetodoPago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PagosController",
+    "Method": "AgregarPago",
+    "RelativePath": "api/Pagos/AgregarPago",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagoAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PagoAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PagosController",
+    "Method": "BuscarPago",
+    "RelativePath": "api/Pagos/BuscarPago/{codigoPago}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.PagoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PagosController",
+    "Method": "ConsultarPagos",
+    "RelativePath": "api/Pagos/ConsultarPagos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.PagoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PagosController",
+    "Method": "EditarPago",
+    "RelativePath": "api/Pagos/EditarPago",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagoEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PagoEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PagosController",
+    "Method": "EliminarPago",
+    "RelativePath": "api/Pagos/EliminarPago/{codigoPago}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPago",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteHotelesController",
+    "Method": "AgregarPaqueteHotel",
+    "RelativePath": "api/PaqueteHoteles/AgregarPaqueteHotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteHotelAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteHotelAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteHotelesController",
+    "Method": "BuscarPaqueteHotel",
+    "RelativePath": "api/PaqueteHoteles/BuscarPaqueteHotel/{codigoPaqueteHotel}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaqueteHotel",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteHotelConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteHotelesController",
+    "Method": "ConsultarPaqueteHoteles",
+    "RelativePath": "api/PaqueteHoteles/ConsultarPaqueteHoteles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteHotelConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteHotelesController",
+    "Method": "EditarPaqueteHotel",
+    "RelativePath": "api/PaqueteHoteles/EditarPaqueteHotel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteHotelEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteHotelEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteHotelesController",
+    "Method": "EliminarPaqueteHotel",
+    "RelativePath": "api/PaqueteHoteles/EliminarPaqueteHotel/{codigoPaqueteHotel}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaqueteHotel",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaquetesController",
+    "Method": "AgregarPaquete",
+    "RelativePath": "api/Paquetes/AgregarPaquete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaquetesController",
+    "Method": "BuscarPaquete",
+    "RelativePath": "api/Paquetes/BuscarPaquete/{codigoPaquete}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaquete",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaquetesController",
+    "Method": "ConsultarPaquetes",
+    "RelativePath": "api/Paquetes/ConsultarPaquetes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaquetesController",
+    "Method": "EditarPaquete",
+    "RelativePath": "api/Paquetes/EditarPaquete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaquetesController",
+    "Method": "EliminarPaquete",
+    "RelativePath": "api/Paquetes/EliminarPaquete/{codigoPaquete}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaquete",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteToursController",
+    "Method": "AgregarPaqueteTour",
+    "RelativePath": "api/PaqueteTours/AgregarPaqueteTour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteTourAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteTourAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteToursController",
+    "Method": "BuscarPaqueteTour",
+    "RelativePath": "api/PaqueteTours/BuscarPaqueteTour/{codigoPaqueteTour}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaqueteTour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteTourConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteToursController",
+    "Method": "ConsultarPaqueteTours",
+    "RelativePath": "api/PaqueteTours/ConsultarPaqueteTours",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.PaqueteTourConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteToursController",
+    "Method": "EditarPaqueteTour",
+    "RelativePath": "api/PaqueteTours/EditarPaqueteTour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paqueteTourEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.PaqueteTourEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.PaqueteToursController",
+    "Method": "EliminarPaqueteTour",
+    "RelativePath": "api/PaqueteTours/EliminarPaqueteTour/{codigoPaqueteTour}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoPaqueteTour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ProveedoresController",
+    "Method": "AgregarProveedor",
+    "RelativePath": "api/Proveedores/AgregarProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedorAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ProveedorAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ProveedoresController",
+    "Method": "BuscarProveedor",
+    "RelativePath": "api/Proveedores/BuscarProveedor/{codigoProveedor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ProveedorConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ProveedoresController",
+    "Method": "ConsultarProveedores",
+    "RelativePath": "api/Proveedores/ConsultarProveedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ProveedorConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ProveedoresController",
+    "Method": "EditarProveedor",
+    "RelativePath": "api/Proveedores/EditarProveedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedorEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ProveedorEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ProveedoresController",
+    "Method": "EliminarProveedor",
+    "RelativePath": "api/Proveedores/EliminarProveedor/{codigoProveedor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservaPersonasController",
+    "Method": "AgregarReservaPersona",
+    "RelativePath": "api/ReservaPersonas/AgregarReservaPersona",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservaPersonaAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ReservaPersonaAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservaPersonasController",
+    "Method": "BuscarReservaPersona",
+    "RelativePath": "api/ReservaPersonas/BuscarReservaPersona/{codigoReservaPersona}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoReservaPersona",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ReservaPersonaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservaPersonasController",
+    "Method": "ConsultarReservaPersonas",
+    "RelativePath": "api/ReservaPersonas/ConsultarReservaPersonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ReservaPersonaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservaPersonasController",
+    "Method": "EditarReservaPersona",
+    "RelativePath": "api/ReservaPersonas/EditarReservaPersona",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservaPersonaEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ReservaPersonaEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservaPersonasController",
+    "Method": "EliminarReservaPersona",
+    "RelativePath": "api/ReservaPersonas/EliminarReservaPersona/{codigoReservaPersona}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoReservaPersona",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservasController",
+    "Method": "AgregarReserva",
+    "RelativePath": "api/Reservas/AgregarReserva",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservaAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ReservaAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservasController",
+    "Method": "BuscarReserva",
+    "RelativePath": "api/Reservas/BuscarReserva/{codigoReserva}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoReserva",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ReservaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservasController",
+    "Method": "ConsultarReservas",
+    "RelativePath": "api/Reservas/ConsultarReservas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ReservaConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservasController",
+    "Method": "EditarReserva",
+    "RelativePath": "api/Reservas/EditarReserva",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservaEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ReservaEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ReservasController",
+    "Method": "EliminarReserva",
+    "RelativePath": "api/Reservas/EliminarReserva/{codigoReserva}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoReserva",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ServiciosProveedorController",
+    "Method": "AgregarServicioProveedor",
+    "RelativePath": "api/ServiciosProveedor/AgregarServicioProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicioProveedorAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ServicioProveedorAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ServiciosProveedorController",
+    "Method": "BuscarServicioProveedor",
+    "RelativePath": "api/ServiciosProveedor/BuscarServicioProveedor/{codigoServicioProv}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoServicioProv",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.ServicioProveedorConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ServiciosProveedorController",
+    "Method": "ConsultarServiciosProveedor",
+    "RelativePath": "api/ServiciosProveedor/ConsultarServiciosProveedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.ServicioProveedorConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ServiciosProveedorController",
+    "Method": "EditarServicioProveedor",
+    "RelativePath": "api/ServiciosProveedor/EditarServicioProveedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicioProveedorEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.ServicioProveedorEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ServiciosProveedorController",
+    "Method": "EliminarServicioProveedor",
+    "RelativePath": "api/ServiciosProveedor/EliminarServicioProveedor/{codigoServicioProv}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoServicioProv",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TiposTransporteController",
+    "Method": "AgregarTipoTransporte",
+    "RelativePath": "api/TiposTransporte/AgregarTipoTransporte",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoTransporteAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TipoTransporteAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TiposTransporteController",
+    "Method": "BuscarTipoTransporte",
+    "RelativePath": "api/TiposTransporte/BuscarTipoTransporte/{codigoTipoTransporte}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTipoTransporte",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.TipoTransporteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TiposTransporteController",
+    "Method": "ConsultarTiposTransporte",
+    "RelativePath": "api/TiposTransporte/ConsultarTiposTransporte",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.TipoTransporteConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TiposTransporteController",
+    "Method": "EditarTipoTransporte",
+    "RelativePath": "api/TiposTransporte/EditarTipoTransporte",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoTransporteEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TipoTransporteEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TiposTransporteController",
+    "Method": "EliminarTipoTransporte",
+    "RelativePath": "api/TiposTransporte/EliminarTipoTransporte/{codigoTipoTransporte}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTipoTransporte",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ToursController",
+    "Method": "AgregarTour",
+    "RelativePath": "api/Tours/AgregarTour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TourAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ToursController",
+    "Method": "BuscarTour",
+    "RelativePath": "api/Tours/BuscarTour/{codigoTour}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.TourConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ToursController",
+    "Method": "ConsultarTours",
+    "RelativePath": "api/Tours/ConsultarTours",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.TourConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ToursController",
+    "Method": "EditarTour",
+    "RelativePath": "api/Tours/EditarTour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TourEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.ToursController",
+    "Method": "EliminarTour",
+    "RelativePath": "api/Tours/EliminarTour/{codigoTour}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TrasladosController",
+    "Method": "AgregarTraslado",
+    "RelativePath": "api/Traslados/AgregarTraslado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trasladoAgregarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TrasladoAgregarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TrasladosController",
+    "Method": "BuscarTraslado",
+    "RelativePath": "api/Traslados/BuscarTraslado/{codigoTraslado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTraslado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[ViajesMundoMaya.DTO.DTO.TrasladoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TrasladosController",
+    "Method": "ConsultarTraslados",
+    "RelativePath": "api/Traslados/ConsultarTraslados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Collections.Generic.List\u00601[[ViajesMundoMaya.DTO.DTO.TrasladoConsultaDTO, ViajesMundoMaya.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TrasladosController",
+    "Method": "EditarTraslado",
+    "RelativePath": "api/Traslados/EditarTraslado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trasladoEditarDTO",
+        "Type": "ViajesMundoMaya.DTO.DTO.TrasladoEditarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ViajesMundoMaya.API.Controllers.TrasladosController",
+    "Method": "EliminarTraslado",
+    "RelativePath": "api/Traslados/EliminarTraslado/{codigoTraslado}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoTraslado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ViajesMundoMaya.DTO.DTO.RespuestaApi\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

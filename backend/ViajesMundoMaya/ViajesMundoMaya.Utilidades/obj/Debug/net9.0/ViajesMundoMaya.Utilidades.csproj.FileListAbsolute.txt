@@ -1,0 +1,11 @@
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\bin\Debug\net9.0\ViajesMundoMaya.Utilidades.deps.json
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\bin\Debug\net9.0\ViajesMundoMaya.Utilidades.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\bin\Debug\net9.0\ViajesMundoMaya.Utilidades.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.AssemblyInfoInputs.cache
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.AssemblyInfo.cs
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.csproj.CoreCompileInputs.cache
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\refint\ViajesMundoMaya.Utilidades.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ViajesMundoMaya.Utilidades.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Utilidades\obj\Debug\net9.0\ref\ViajesMundoMaya.Utilidades.dll

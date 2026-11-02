@@ -1,0 +1,12 @@
+﻿{
+  "ConnectionStrings": {
+    "ConexionSQL": "Data Source=localhost,1435;Initial Catalog=BD_ViajesMundoMaya;Persist Security Info=True;User ID=sa;Password=Desarrolloweb_2026*;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

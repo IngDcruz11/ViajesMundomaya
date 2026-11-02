@@ -1,0 +1,17 @@
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Datos.deps.json
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Datos.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Datos.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Entidades.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Utilidades.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Entidades.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\bin\Debug\net9.0\ViajesMundoMaya.Utilidades.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.csproj.AssemblyReference.cache
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.GeneratedMSBuildEditorConfig.editorconfig
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.AssemblyInfoInputs.cache
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.AssemblyInfo.cs
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.csproj.CoreCompileInputs.cache
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMu.034F4F26.Up2Date
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\refint\ViajesMundoMaya.Datos.dll
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ViajesMundoMaya.Datos.pdb
+E:\DESARROLLO_WEB\ViajesMundoMaya\backend\ViajesMundoMaya\ViajesMundoMaya.Datos\obj\Debug\net9.0\ref\ViajesMundoMaya.Datos.dll

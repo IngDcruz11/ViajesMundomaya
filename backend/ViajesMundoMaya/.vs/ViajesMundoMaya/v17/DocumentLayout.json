@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B3486C-2505-4753-884B-FDD58B2177E4}|ViajesMundoMaya.API\\ViajesMundoMaya.API.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6B3486C-2505-4753-884B-FDD58B2177E4}|ViajesMundoMaya.API\\ViajesMundoMaya.API.csproj|solutionrelative:viajesmundomaya.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}|ViajesMundoMaya.Entidades\\ViajesMundoMaya.Entidades.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.entidades\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}|ViajesMundoMaya.Entidades\\ViajesMundoMaya.Entidades.csproj|solutionrelative:viajesmundomaya.entidades\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.dto\\dto\\categoriaconsultadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|solutionrelative:viajesmundomaya.dto\\dto\\categoriaconsultadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.dto\\dto\\categoriaagregardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|solutionrelative:viajesmundomaya.dto\\dto\\categoriaagregardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.dto\\dto\\categoriaeditardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD748DAC-1B32-4DF8-871D-E61564305427}|ViajesMundoMaya.DTO\\ViajesMundoMaya.DTO.csproj|solutionrelative:viajesmundomaya.dto\\dto\\categoriaeditardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AC76034-12A7-4C88-AC4D-8049B4620652}|ViajesMundoMaya.Datos\\ViajesMundoMaya.Datos.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.datos\\datos\\categoriadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AC76034-12A7-4C88-AC4D-8049B4620652}|ViajesMundoMaya.Datos\\ViajesMundoMaya.Datos.csproj|solutionrelative:viajesmundomaya.datos\\datos\\categoriadatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}|ViajesMundoMaya.Negocio\\ViajesMundoMaya.Negocio.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.negocio\\servicios\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}|ViajesMundoMaya.Negocio\\ViajesMundoMaya.Negocio.csproj|solutionrelative:viajesmundomaya.negocio\\servicios\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B3486C-2505-4753-884B-FDD58B2177E4}|ViajesMundoMaya.API\\ViajesMundoMaya.API.csproj|e:\\desarrollo_web\\viajesmundomaya\\backend\\viajesmundomaya\\viajesmundomaya.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B3486C-2505-4753-884B-FDD58B2177E4}|ViajesMundoMaya.API\\ViajesMundoMaya.API.csproj|solutionrelative:viajesmundomaya.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaAgregarDTO.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaAgregarDTO.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.DTO\\DTO\\CategoriaAgregarDTO.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaAgregarDTO.cs",
+              "RelativeToolTip": "ViajesMundoMaya.DTO\\DTO\\CategoriaAgregarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:29:21.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaConsultaDTO.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaConsultaDTO.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.DTO\\DTO\\CategoriaConsultaDTO.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaConsultaDTO.cs",
+              "RelativeToolTip": "ViajesMundoMaya.DTO\\DTO\\CategoriaConsultaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:29:11.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Entidades\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.Entidades\\Entidades\\Categoria.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Entidades\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "ViajesMundoMaya.Entidades\\Entidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:28:56.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.API\\appsettings.json",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.API\\appsettings.json",
+              "RelativeToolTip": "ViajesMundoMaya.API\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T15:50:54.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaEditarDTO.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaEditarDTO.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.DTO\\DTO\\CategoriaEditarDTO.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.DTO\\DTO\\CategoriaEditarDTO.cs",
+              "RelativeToolTip": "ViajesMundoMaya.DTO\\DTO\\CategoriaEditarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:29:33.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriaDatos.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Datos\\Datos\\CategoriaDatos.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.Datos\\Datos\\CategoriaDatos.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Datos\\Datos\\CategoriaDatos.cs",
+              "RelativeToolTip": "ViajesMundoMaya.Datos\\Datos\\CategoriaDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:29:55.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ViajesMundoMaya.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:30:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriaNegocio.cs",
+              "DocumentMoniker": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Negocio\\Servicios\\CategoriaNegocio.cs",
+              "RelativeDocumentMoniker": "ViajesMundoMaya.Negocio\\Servicios\\CategoriaNegocio.cs",
+              "ToolTip": "E:\\DESARROLLO_WEB\\ViajesMundoMaya\\backend\\ViajesMundoMaya\\ViajesMundoMaya.Negocio\\Servicios\\CategoriaNegocio.cs",
+              "RelativeToolTip": "ViajesMundoMaya.Negocio\\Servicios\\CategoriaNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T15:30:04.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ViajesMundoMaya.Entidades/1.0.0": {
+        "runtime": {
+          "ViajesMundoMaya.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViajesMundoMaya.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViajesMundoMaya.Datos\ViajesMundoMaya.Datos.csproj" />
+    <ProjectReference Include="..\ViajesMundoMaya.DTO\ViajesMundoMaya.DTO.csproj" />
+    <ProjectReference Include="..\ViajesMundoMaya.Entidades\ViajesMundoMaya.Entidades.csproj" />
+    <ProjectReference Include="..\ViajesMundoMaya.Utilidades\ViajesMundoMaya.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.API", "ViajesMundoMaya.API\ViajesMundoMaya.API.csproj", "{F6B3486C-2505-4753-884B-FDD58B2177E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.Entidades", "ViajesMundoMaya.Entidades\ViajesMundoMaya.Entidades.csproj", "{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.DTO", "ViajesMundoMaya.DTO\ViajesMundoMaya.DTO.csproj", "{DD748DAC-1B32-4DF8-871D-E61564305427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.Datos", "ViajesMundoMaya.Datos\ViajesMundoMaya.Datos.csproj", "{3AC76034-12A7-4C88-AC4D-8049B4620652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.Negocio", "ViajesMundoMaya.Negocio\ViajesMundoMaya.Negocio.csproj", "{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViajesMundoMaya.Utilidades", "ViajesMundoMaya.Utilidades\ViajesMundoMaya.Utilidades.csproj", "{925449B1-1FC8-4089-B805-EAD43EF9E7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B3486C-2505-4753-884B-FDD58B2177E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B3486C-2505-4753-884B-FDD58B2177E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B3486C-2505-4753-884B-FDD58B2177E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B3486C-2505-4753-884B-FDD58B2177E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5B3BD-C586-4FF9-AC41-C94138FF11E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD748DAC-1B32-4DF8-871D-E61564305427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD748DAC-1B32-4DF8-871D-E61564305427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD748DAC-1B32-4DF8-871D-E61564305427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD748DAC-1B32-4DF8-871D-E61564305427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC76034-12A7-4C88-AC4D-8049B4620652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC76034-12A7-4C88-AC4D-8049B4620652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC76034-12A7-4C88-AC4D-8049B4620652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC76034-12A7-4C88-AC4D-8049B4620652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F48AC0-F26A-4C1A-A150-EB2B4321C4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925449B1-1FC8-4089-B805-EAD43EF9E7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925449B1-1FC8-4089-B805-EAD43EF9E7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925449B1-1FC8-4089-B805-EAD43EF9E7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925449B1-1FC8-4089-B805-EAD43EF9E7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {848B9171-3513-42A7-8C26-BA35A3FDC284}
+	EndGlobalSection
+EndGlobal
